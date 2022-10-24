@@ -88,6 +88,7 @@
           <br>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio perferendis asperiores animi dolorum enim vitae esse soluta ipsam, omnis eum, veniam nemo? Officia quo aut odio, expedita voluptas facilis dolore?
         </p>
+
         <div class="modal__languages">
           <figure class="modal__language">
             <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" alt="">
@@ -103,7 +104,30 @@
           </figure>
         </div>
       </div>
-        <div class="modal__half modal__contact">Lets have a chat</div>
+
+        <div class="modal__half modal__contact">
+        <h3 class="modal__title modal__title--contact">
+          Lets have a chat!
+        </h3> 
+        <h4 class="modal__sub-title modal__sub-title--contact">
+          Lorem ipsum dolor sit amet consectetur.
+        </h4>
+        <form id="contact__form" action="">
+          <div class="form__item">
+            <label class="form__item--label">Name</label>
+            <input class="input" name="user_name" type="text" required></input>
+          </div>
+          <div class="form__item">
+            <label class="form__item--label">Email</label>
+            <input class="input" name="user_email" type="email" required></input>
+          </div>
+          <div class="form__item">
+            <label class="form__item--label">Message</label>
+            <textarea class="input" name="user_message" type="text" required></textarea>
+          </div>
+          <button id="contact__submit" class="form__submit">Send it my way</button>
+        </form>
+
       </div>
     </section>
 
